@@ -5,7 +5,7 @@ function Github() {
   const data = useLoaderData();
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-50 to-blue-100 p-4">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-orange-50 to-yellow-100 p-4">
       <div className="bg-white rounded-xl shadow-2xl overflow-hidden max-w-md w-full border border-gray-200">
     
         <div className="flex justify-center py-6 bg-gray-50">
@@ -31,19 +31,19 @@ function Github() {
 
           <div className="flex justify-around py-3 border-t border-b border-gray-200 my-4">
             <div>
-              <p className="text-lg font-semibold text-indigo-600">
+              <p className="text-lg font-semibold text-orange-600">
                 {data.public_repos}
               </p>
               <p className="text-xs text-gray-600">Repositories</p>
             </div>
             <div>
-              <p className="text-lg font-semibold text-indigo-600">
+              <p className="text-lg font-semibold text-orange-600">
                 {data.followers}
               </p>
               <p className="text-xs text-gray-600">Followers</p>
             </div>
             <div>
-              <p className="text-lg font-semibold text-indigo-600">
+              <p className="text-lg font-semibold text-orange-600">
                 {data.following}
               </p>
               <p className="text-xs text-gray-600">Following</p>
@@ -58,7 +58,7 @@ function Github() {
             href={data.html_url}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-6 py-2 bg-indigo-600 text-white font-medium rounded-full hover:bg-indigo-700 transition duration-200 shadow hover:shadow-md"
+            className="inline-block px-6 py-2 bg-orange-600 text-white font-medium rounded-full hover:bg-orange-700 transition duration-200 shadow hover:shadow-md"
           >
             View on GitHub
           </a>
